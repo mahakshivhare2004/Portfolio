@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mahak Shivhare — BCA (Data Science) student, aspiring Data Analyst skilled in Python, SQL, Excel, and Power BI.">
+  <meta name="author" content="Mahak Shivhare">
+  <meta name="keywords" content="Mahak Shivhare, Data Analyst, Data Science, Python, SQL, Power BI, Excel, CareerBridge, Portfolio">
+  <meta name="theme-color" content="#2563eb">
+  <title>Mahak Shivhare | Data Analyst & Data Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+  <!-- Site Header -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mahak Shivhare Home">
+        <span class="brand-mark">MS</span>
+        <span class="brand-name">Mahak Shivhare<span class="brand-dot">.</span></span>
+      </a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Get in Touch <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="status-badge">
+          <span class="status-pulse"></span>
+          <span>AVAILABLE FOR DATA ANALYST / DATA SCIENCE INTERNSHIPS</span>
+        </div>
+        
+        <h1>Turning raw data into <span class="text-gradient">actionable insights.</span></h1>
+        
+        <p class="hero-lead">
+          I'm <strong>Mahak Shivhare</strong>, a <strong>Bachelor of Computer Applications (Data Science)</strong> student at 
+          <strong>Jagran Lakecity University, Bhopal</strong>. Skilled in <strong>Python, SQL, Excel, and Power BI</strong> for data analysis, visualization, and strategic reporting.
+        </p>
+        
+        <p class="hero-sub">
+          Proven experience translating data into actionable intelligence through a Power BI-based <strong>Cars24 Business Analytics Dashboard</strong>, an interactive <strong>CareerBridge</strong> web application, and research-backed training libraries at <strong>ECH Business Solutions</strong>.
+        </p>
+        
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            <span>Explore My Work</span>
+            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+          <a class="button button-secondary" href="#experience">
+            <span>View Experience</span>
+          </a>
+          <a class="button button-ghost" href="#contact">
+            <span>Contact Me</span>
+          </a>
+        </div>
+        
+        <div class="hero-meta">
+          <div class="meta-pill">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Bhopal, Madhya Pradesh</span>
+          </div>
+          <div class="meta-pill">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            <span>BCA (Data Science) • 2027</span>
+          </div>
+          <div class="meta-pill highlight">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            <span>Ex R&D Intern @ ECH Business Solutions</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Interactive Hero Visual -->
+      <div class="hero-visual" aria-label="Interactive Data Analytics Preview">
+        <div class="visual-glow"></div>
+        <div class="dashboard-card">
+          <div class="dash-top">
+            <div>
+              <span class="dash-kicker">BUSINESS ANALYTICS DASHBOARD</span>
+              <h3>Cars24 Market Intelligence</h3>
+            </div>
+            <span class="badge-live">LIVE EDA</span>
+          </div>
+          
+          <div class="metric-row">
+            <div class="metric-box">
+              <span>Cars Dataset EDA</span>
+              <strong>15,000+</strong>
+              <small>Data points cleaned</small>
+            </div>
+            <div class="metric-box metric-blue">
+              <span>Key Resale Drivers</span>
+              <strong>Power BI</strong>
+              <small>Interactive Visuals</small>
+            </div>
+          </div>
+          
+          <div class="chart-panel">
+            <div class="chart-heading">
+              <div>
+                <span class="chart-label">Pricing Trend by Vehicle Age</span>
+                <strong>Depreciation & Valuation Curve</strong>
+              </div>
+              <span class="chart-tag">Python & Excel</span>
+            </div>
+            <div class="bar-chart" aria-hidden="true">
+              <span style="height:92%" title="0-2 Years: Top Resale Value"></span>
+              <span style="height:84%" title="2-4 Years"></span>
+              <span style="height:73%" title="4-6 Years"></span>
+              <span style="height:62%" title="6-8 Years"></span>
+              <span style="height:48%" title="8-10 Years"></span>
+              <span style="height:38%" title="10+ Years"></span>
+              <span style="height:28%" title="Vintage / High Mileage"></span>
+            </div>
+            <div class="chart-axis">
+              <span>0-2 Yrs</span>
+              <span>4-6 Yrs</span>
+              <span>8-10 Yrs</span>
+              <span>10+ Yrs</span>
+            </div>
+          </div>
+          
+          <div class="dash-footer">
+            <span class="footer-icon">⚡</span>
+            <span>Bridging raw numbers with executive decisions.</span>
+          </div>
+        </div>
+        
+        <div class="floating-note note-one">
+          <div class="note-icon note-icon-green">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+          </div>
+          <div>
+            <strong>CareerBridge System</strong>
+            <small>Skill-gap & readiness engine</small>
+          </div>
+        </div>
+        
+        <div class="floating-note note-two">
+          <div class="note-icon note-icon-purple">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+          </div>
+          <div>
+            <strong>Excel Formula Library</strong>
+            <small>Built for Graphy LMS</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust / Tech Strip -->
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <span class="trust-label">CORE COMPETENCIES</span>
+        <span class="trust-item"><span class="trust-dot"></span>Python</span>
+        <span class="trust-item"><span class="trust-dot"></span>SQL (DBMS)</span>
+        <span class="trust-item"><span class="trust-dot"></span>Power BI</span>
+        <span class="trust-item"><span class="trust-dot"></span>Advanced Excel</span>
+        <span class="trust-item"><span class="trust-dot"></span>Pandas & NumPy</span>
+        <span class="trust-item"><span class="trust-dot"></span>Data Structures</span>
+        <span class="trust-item"><span class="trust-dot"></span>SQLite</span>
+        <span class="trust-item"><span class="trust-dot"></span>Machine Learning Basics</span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <span class="section-kicker">PROFESSIONAL SUMMARY</span>
+        <h2>Analytical by training.<br><span class="muted-heading">Driven by real-world problem solving.</span></h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            I am a <strong>Bachelor of Computer Applications (Data Science)</strong> student at 
+            <strong>Jagran Lakecity University, Bhopal</strong>, dedicated to transforming complex data into clear, reliable insights and practical business intelligence.
+          </p>
+          <p>
+            My background blends fundamental computer science rigor—including <strong>Data Structures & Algorithms, Database Management Systems (DBMS), and Operating Systems</strong>—with modern data analytics tools like <strong>Python, SQL, Excel, and Power BI</strong>.
+          </p>
+          <p>
+            Through my internship at <strong>ECH Business Solutions</strong> and projects like <strong>CareerBridge</strong> and the <strong>Cars24 Analytics Dashboard</strong>, I have developed a hands-on workflow: identifying the core business question, executing meticulous data cleaning, and crafting intuitive visual narratives for stakeholders.
+          </p>
+          
+          <div class="about-note">
+            <span class="note-spark">✦</span>
+            <div>
+              <strong>Analytical Philosophy</strong>
+              <p>Clean data is the backbone of sound decisions. I focus on precision in preprocessing, thoughtful metric design, and transparent storytelling.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="profile-facts">
+          <div class="fact-card">
+            <div class="fact-badge">01</div>
+            <div class="fact-content">
+              <strong>Degree & Major</strong>
+              <p>BCA (Data Science)</p>
+              <small>Jagran Lakecity University, Bhopal • CGPA 7.00/10</small>
+            </div>
+          </div>
+          
+          <div class="fact-card">
+            <div class="fact-badge">02</div>
+            <div class="fact-content">
+              <strong>Professional Experience</strong>
+              <p>Research & Development Intern</p>
+              <small>ECH Business Solutions, Bhopal (June – August 2026)</small>
+            </div>
+          </div>
+          
+          <div class="fact-card">
+            <div class="fact-badge">03</div>
+            <div class="fact-content">
+              <strong>Core Analytics Focus</strong>
+              <p>Power BI Dashboards & Python EDA</p>
+              <small>Data Cleaning, Business Metrics, Exploratory Analysis</small>
+            </div>
+          </div>
+          
+          <div class="fact-card">
+            <div class="fact-badge">04</div>
+            <div class="fact-content">
+              <strong>National Certification</strong>
+              <p>Course on Computer Concepts (CCC)</p>
+              <small>Certified by NIELIT (Dec 2024)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section class="section section-soft" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">CAREER EXPERIENCE</span>
+          <h2>Professional Experience</h2>
+          <p class="section-description">Hands-on industry exposure building data analytics resources, AI training materials, and interactive workshops.</p>
+        </div>
+        
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-company-logo">ECH</div>
+            <div class="exp-role-info">
+              <div class="exp-title-row">
+                <h3>Research & Development Intern</h3>
+                <span class="exp-date-pill">June 2026 – August 2026</span>
+              </div>
+              <div class="exp-company-sub">
+                <span class="exp-company-name">ECH Business Solutions</span>
+                <span class="exp-divider">•</span>
+                <span class="exp-location">Bhopal, Madhya Pradesh</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="exp-body">
+            <p class="exp-intro">
+              Contributed to core data analytics research, curriculum structuring, and technical content development for technical training programs and online learning initiatives.
+            </p>
+            
+            <div class="exp-highlights-grid">
+              <div class="exp-highlight-item">
+                <div class="exp-icon-box">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                </div>
+                <div>
+                  <strong>Data Analytics & AI Research</strong>
+                  <p>Conducted extensive research on Data Analytics, Excel formulas, and AI-powered workflows to support technical training curricula and corporate course initiatives.</p>
+                </div>
+              </div>
+
+              <div class="exp-highlight-item">
+                <div class="exp-icon-box">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                </div>
+                <div>
+                  <strong>Excel & AI Prompt Libraries</strong>
+                  <p>Engineered a structured Excel Formula Library and an AI Prompt Library, authoring assignments, practical learning resources, and technical documentation for LMS-based (Graphy) course delivery.</p>
+                </div>
+              </div>
+
+              <div class="exp-highlight-item">
+                <div class="exp-icon-box">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                </div>
+                <div>
+                  <strong>"AI in Excel" Webinar & Workshops</strong>
+                  <p>Collaborated with cross-functional teams to design and co-deliver an "AI in Excel" webinar and hands-on workshops, enhancing course delivery quality and research methodology.</p>
+                </div>
+              </div>
+
+              <div class="exp-highlight-item">
+                <div class="exp-icon-box">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div>
+                  <strong>Visual Content & Outreach</strong>
+                  <p>Designed course thumbnails and engaging visual assets, optimizing LinkedIn content and reach to expand student engagement across technical modules.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="exp-tags">
+              <span>Data Analytics</span>
+              <span>Excel Formula Library</span>
+              <span>AI Prompt Engineering</span>
+              <span>Graphy LMS</span>
+              <span>Webinar Hosting</span>
+              <span>Technical Documentation</span>
+              <span>Content Optimization</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section container" id="skills">
+      <div class="section-heading centered">
+        <span class="section-kicker">TECHNICAL ARSENAL</span>
+        <h2>Skills & Capabilities</h2>
+        <p class="section-description">A balanced toolkit spanning analytical frameworks, programming languages, database systems, and modern AI developer tools.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- 1. Data Analytics & BI -->
+        <article class="skill-category-card">
+          <div class="skill-card-head">
+            <div class="category-icon icon-blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            </div>
+            <div>
+              <h3>Data Analytics & BI</h3>
+              <span class="skill-subtitle">Analysis & Visualization</span>
+            </div>
+          </div>
+          <p class="skill-desc">End-to-end data pipeline capabilities from exploratory data analysis to high-impact dashboards and reporting.</p>
+          <div class="skill-pills">
+            <span class="pill pill-featured">Excel (Advanced)</span>
+            <span class="pill pill-featured">Power BI</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Jupyter Notebook</span>
+            <span class="pill">Data Cleaning</span>
+            <span class="pill">EDA</span>
+            <span class="pill">Foundational ML</span>
+          </div>
+        </article>
+
+        <!-- 2. Programming Languages -->
+        <article class="skill-category-card">
+          <div class="skill-card-head">
+            <div class="category-icon icon-violet">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <div>
+              <h3>Programming Languages</h3>
+              <span class="skill-subtitle">Development & Scripting</span>
+            </div>
+          </div>
+          <p class="skill-desc">Strong problem-solving foundations in core programming, scripting, and database querying languages.</p>
+          <div class="skill-pills">
+            <span class="pill pill-featured">Python</span>
+            <span class="pill pill-featured">SQL</span>
+            <span class="pill">C</span>
+            <span class="pill">C++</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">SQLite</span>
+          </div>
+        </article>
+
+        <!-- 3. Web & Core Computer Science -->
+        <article class="skill-category-card">
+          <div class="skill-card-head">
+            <div class="category-icon icon-green">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <div>
+              <h3>Core CS & Web</h3>
+              <span class="skill-subtitle">Foundations & Architecture</span>
+            </div>
+          </div>
+          <p class="skill-desc">Solid grounding in fundamental computer science principles, database modeling, and front-end technologies.</p>
+          <div class="skill-pills">
+            <span class="pill">Data Structures & Algorithms</span>
+            <span class="pill">DBMS</span>
+            <span class="pill">Operating Systems</span>
+            <span class="pill">OOP</span>
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+          </div>
+        </article>
+
+        <!-- 4. Developer Tools & AI -->
+        <article class="skill-category-card">
+          <div class="skill-card-head">
+            <div class="category-icon icon-orange">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            </div>
+            <div>
+              <h3>Developer & AI Tools</h3>
+              <span class="skill-subtitle">Workflow & Acceleration</span>
+            </div>
+          </div>
+          <p class="skill-desc">Utilizing modern developer environments, version control, and AI research tools to accelerate project delivery.</p>
+          <div class="skill-pills">
+            <span class="pill">GitHub</span>
+            <span class="pill">NotebookLM</span>
+            <span class="pill">HeyGen</span>
+            <span class="pill">Graphy LMS</span>
+            <span class="pill">VS Code</span>
+          </div>
+        </article>
+
+        <!-- 5. Soft Skills & Professional Competencies -->
+        <article class="skill-category-card skill-card-wide">
+          <div class="skill-card-head">
+            <div class="category-icon icon-teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <div>
+              <h3>Soft Skills & Leadership</h3>
+              <span class="skill-subtitle">Communication & Problem Solving</span>
+            </div>
+          </div>
+          <p class="skill-desc">Proven interpersonal and analytical strengths tested through academic teamwork, webinars, and internship delivery.</p>
+          <div class="skill-pills">
+            <span class="pill">Communication</span>
+            <span class="pill">Teamwork & Collaboration</span>
+            <span class="pill">Critical Problem Solving</span>
+            <span class="pill">In-Depth Research</span>
+            <span class="pill">Presentation & Webinars</span>
+            <span class="pill">Time Management</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="projects-heading">
+          <div class="section-heading">
+            <span class="section-kicker">FEATURED WORK</span>
+            <h2>Academic & Practical<br><span class="muted-heading">Projects that prove impact.</span></h2>
+          </div>
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="analytics">Data Analytics & BI</button>
+            <button class="filter-btn" data-filter="software">Python Applications</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Project 1: CareerBridge -->
+          <article class="project-card featured-project" data-category="software">
+            <div class="project-art careerbridge-art">
+              <div class="art-orbit orbit-one"></div>
+              <div class="art-orbit orbit-two"></div>
+              <div class="cb-mini-window">
+                <div class="cb-window-head">
+                  <span></span><span></span><span></span>
+                  <small>CareerBridge • Python & SQLite</small>
+                </div>
+                <div class="cb-window-body">
+                  <div class="cb-side"></div>
+                  <div class="cb-main">
+                    <span class="cb-label">CAREER-READINESS ENGINE</span>
+                    <div class="cb-score-row">
+                      <strong>Skill Gap Index</strong>
+                      <span class="metric-accent">88% Ready</span>
+                    </div>
+                    <div class="cb-progress"><i style="width: 88%;"></i></div>
+                    <div class="cb-badges-row">
+                      <span class="mini-tag">Data Science Track</span>
+                      <span class="mini-tag">SQL & Python</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span class="art-pill">FEATURED APPLICATION</span>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-title-row">
+                <span class="project-type">Python Web Application • Skill-Gap Analysis</span>
+                <span class="project-arrow">↗</span>
+              </div>
+              <h3>CareerBridge – Student Skill Gap & Career Readiness System</h3>
+              <p>
+                A Python-based student career-readiness web application that evaluates learner skills against target career profiles and identifies personalized skill gaps. Features dedicated modules for user authentication, skill tracking, and data-driven recommendations.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>SQLite</span>
+                <span>Skill Tracking</span>
+                <span>Assessment Engine</span>
+                <span>Profile Management</span>
+              </div>
+              <button class="button-details project-details-btn" data-project="careerbridge">
+                <span>View Full Case Study</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 2: Cars24 Business Analytics Dashboard -->
+          <article class="project-card" data-category="analytics">
+            <div class="project-art sales-art">
+              <div class="sales-window">
+                <div class="sales-top">
+                  <span>Cars24 Business Analytics</span>
+                  <span class="sales-period">May 2026</span>
+                </div>
+                <div class="sales-kpis">
+                  <div><small>Vehicles Analyzed</small><b>15,400+</b></div>
+                  <div><small>Key Metrics</small><b>12 Drivers</b></div>
+                  <div><small>Tool Used</small><b>Power BI</b></div>
+                </div>
+                <div class="sales-graph">
+                  <i style="height: 40%"></i>
+                  <i style="height: 60%"></i>
+                  <i style="height: 52%"></i>
+                  <i style="height: 75%"></i>
+                  <i style="height: 68%"></i>
+                  <i style="height: 85%"></i>
+                  <i style="height: 79%"></i>
+                  <i style="height: 94%"></i>
+                  <i style="height: 88%"></i>
+                </div>
+                <div class="sales-legend">
+                  <span>Resale Price vs Mileage & Age</span>
+                  <span>Interactive Drill-downs</span>
+                </div>
+              </div>
+              <span class="art-pill">POWER BI & EDA</span>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-title-row">
+                <span class="project-type">Interactive Dashboard • Power BI</span>
+                <span class="project-arrow">↗</span>
+              </div>
+              <h3>Business Analytics Dashboard (Cars24 Dataset)</h3>
+              <p>
+                Developed an interactive Power BI dashboard to support data-driven automotive business decisions. Conducted extensive data cleaning, preprocessing, and exploratory analysis in Excel and Python, modeling resale pricing factors across real-world vehicles.
+              </p>
+              <div class="project-tags">
+                <span>Power BI</span>
+                <span>Excel</span>
+                <span>Python</span>
+                <span>EDA</span>
+                <span>Cars24 Dataset</span>
+                <span>Data Cleaning</span>
+              </div>
+              <button class="button-details project-details-btn" data-project="cars24">
+                <span>View Dashboard Metrics</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 3: Excel Formula & AI Prompt Library -->
+          <article class="project-card" data-category="analytics">
+            <div class="project-art library-art">
+              <div class="library-window">
+                <div class="lib-header">
+                  <span class="lib-tag">ECH R&D INITIATIVE</span>
+                  <span class="lib-status">Graphy LMS</span>
+                </div>
+                <div class="lib-grid">
+                  <div class="lib-stat"><small>Formulas</small><strong>120+</strong><span>Lookups, Stats & Logic</span></div>
+                  <div class="lib-stat"><small>AI Prompts</small><strong>60+</strong><span>Analytics Workflows</span></div>
+                </div>
+                <div class="lib-list">
+                  <div class="lib-line"><i></i><span>Advanced INDEX-MATCH & XLOOKUP models</span></div>
+                  <div class="lib-line"><i></i><span>Automated exploratory data analysis prompts</span></div>
+                </div>
+              </div>
+              <span class="art-pill">KNOWLEDGE REPOSITORY</span>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-title-row">
+                <span class="project-type">Technical Resource Engineering</span>
+                <span class="project-arrow">↗</span>
+              </div>
+              <h3>Excel Formula & AI Prompt Library</h3>
+              <p>
+                Designed and structured a comprehensive formula and generative AI repository at ECH Business Solutions. Developed assignments and documentation powering Graphy LMS course delivery and live webinar demonstrations.
+              </p>
+              <div class="project-tags">
+                <span>Advanced Excel</span>
+                <span>Prompt Engineering</span>
+                <span>Technical Writing</span>
+                <span>Graphy LMS</span>
+                <span>Webinar Delivery</span>
+              </div>
+              <button class="button-details project-details-btn" data-project="excellibrary">
+                <span>View Resource Details</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="section container" id="education">
+      <div class="section-heading centered">
+        <span class="section-kicker">QUALIFICATIONS</span>
+        <h2>Education & Certifications</h2>
+        <p class="section-description">Formal academic qualifications in Data Science along with verified national IT certifications.</p>
+      </div>
+
+      <div class="edu-grid">
+        <!-- Education Card -->
+        <div class="edu-card">
+          <div class="edu-badge-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+          </div>
+          
+          <div class="edu-status-tag">Expected May 2027</div>
+          
+          <h3>Bachelor of Computer Applications (Data Science)</h3>
+          <p class="edu-institution">Jagran Lakecity University, Bhopal</p>
+          <p class="edu-department">Jagran School of Science & Technology</p>
+          
+          <div class="edu-score-box">
+            <span class="score-label">Cumulative GPA</span>
+            <span class="score-value">7.00 <small>/ 10.0</small></span>
+          </div>
+
+          <div class="coursework-box">
+            <h4>Relevant Coursework:</h4>
+            <div class="course-tags">
+              <span>Data Structures & Algorithms</span>
+              <span>Database Management Systems (DBMS)</span>
+              <span>Operating Systems</span>
+              <span>Data Analytics</span>
+              <span>Object-Oriented Programming</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certification Card -->
+        <div class="edu-card cert-card">
+          <div class="edu-badge-icon cert-badge-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+          </div>
+          
+          <div class="cert-status-tag">Certified December 2024</div>
+          
+          <h3>Course on Computer Concepts (CCC)</h3>
+          <p class="edu-institution">Certified by NIELIT</p>
+          <p class="edu-department">National Institute of Electronics and Information Technology</p>
+          
+          <div class="cert-verify-box">
+            <div class="verify-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <div>
+              <strong>Government Recognized Credential</strong>
+              <small>Validated foundational mastery of computing concepts, database operations, spreadsheets, and information security.</small>
+            </div>
+          </div>
+
+          <div class="coursework-box">
+            <h4>Certified Core Competencies:</h4>
+            <div class="course-tags">
+              <span>Computer Hardware & Software</span>
+              <span>GUI Operating Systems</span>
+              <span>Spreadsheet Operations</span>
+              <span>Database Basics</span>
+              <span>Cyber Security Essentials</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section container contact-section" id="contact">
+      <div class="contact-card">
+        <div class="contact-orb"></div>
+        <div class="contact-copy">
+          <span class="section-kicker kicker-bright">LET'S CONNECT</span>
+          <h2>Ready to solve problems with data.</h2>
+          <p>
+            I am actively seeking <strong>Data Analyst and Data Science internship opportunities</strong> where I can apply my Python, SQL, Excel, and Power BI skills. Let's discuss how I can contribute to your team.
+          </p>
+          
+          <div class="contact-direct-grid">
+            <!-- Email Item -->
+            <div class="contact-direct-item">
+              <div class="direct-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="direct-info">
+                <span class="direct-label">Email Address</span>
+                <a href="mailto:mahakshivhare12@gmail.com" class="direct-link" id="emailDisplay">mahakshivhare12@gmail.com</a>
+              </div>
+              <button class="copy-btn" id="copyEmailBtn" title="Copy email address" aria-label="Copy email address">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span class="copy-text">Copy</span>
+              </button>
+            </div>
+
+            <!-- Phone Item -->
+            <div class="contact-direct-item">
+              <div class="direct-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="direct-info">
+                <span class="direct-label">Phone & WhatsApp</span>
+                <a href="tel:+917522889119" class="direct-link" id="phoneDisplay">+91 75228 89119</a>
+              </div>
+              <button class="copy-btn" id="copyPhoneBtn" title="Copy phone number" aria-label="Copy phone number">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span class="copy-text">Copy</span>
+              </button>
+            </div>
+
+            <!-- Location Item -->
+            <div class="contact-direct-item">
+              <div class="direct-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="direct-info">
+                <span class="direct-label">Location</span>
+                <span class="direct-text">Bhopal, Madhya Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button button-light" id="emailLink" href="mailto:mahakshivhare12@gmail.com">
+            <span>Send Direct Email</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </a>
+          
+          <a class="contact-social-btn" id="linkedinLink" href="https://linkedin.com/in/mahakshivhare" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <span>LinkedIn Profile ↗</span>
+          </a>
+          
+          <a class="contact-social-btn" id="githubLink" href="https://github.com/mahakshivhare2004" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub Profile ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark">MS</span>
+        <span>Mahak Shivhare<span class="brand-dot">.</span></span>
+      </a>
+      <p class="footer-tagline">Data Science • Business Intelligence • Analytics Portfolio</p>
+      <span class="copyright">© <span id="year">2026</span> Mahak Shivhare. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- Project Details Modal Dialog -->
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-header">
+      <span class="section-kicker">PROJECT SPECIFICATIONS</span>
+      <button class="dialog-close" id="dialogClose" aria-label="Close project details">×</button>
+    </div>
+    <h2 id="dialogTitle">Project Details</h2>
+    <div id="dialogContent"></div>
+    <div class="dialog-actions">
+      <button class="button button-primary dialog-done" id="dialogDone">Close Details</button>
+    </div>
+  </dialog>
+</body>
+</html>
